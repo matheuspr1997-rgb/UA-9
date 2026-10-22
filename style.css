@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+:root{
+    --primary-color: rgba(192, 192, 192, 0.199);
+    --secondary-color: black;
+    --fonte-primaria: 'veranda', sans-serif;
+    --font-size: 16px;
+}
+#titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.link-help{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.formulario{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+.form-control{
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid var(--secondary-color);
+}
+.rotulo{
+    font-family: var(--fonte-primaria);
+    font-size: 15px;
+    font-weight: bold;
+}
+#nome{
+    width: 40%;
+    height: 2em;
+}
+#nascimento{
+    width: 20%;
+    height: 2em;
+}
+#endereco{
+    width: 40%;
+    height: 2em;
+}
+#numero{
+    width: 20%;
+    height: 2em;
+}
+#cidade{
+    width: 28%;
+    height: 2em;
+}
+#estado{
+    width: 25%;
+    height: 2em;
+}
+#sexo{
+    width: 20%;
+    height: 2em;
+}
+.botao{
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
